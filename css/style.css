@@ -1,0 +1,143 @@
+/*drag and drop*/
+
+#draggable { 
+	width: 120px; height: 120px; padding: 0.5em; float: left; 
+	margin: 10px 10px 10px 0; background-color: red;
+ }
+#droppable { width: 150px; height: 150px; 
+	padding: 0.5em; float: left; margin: 10px; background-color: orange; }
+
+/*resize*/
+
+.resize{
+	margin-top: 150px;
+}
+
+#resizable { width: 200px; height: 200px; padding: 0.5em; background-color: gainsboro; }
+#resizable h3 { text-align: center; margin: 0; }
+
+
+/*selectable*/
+  .selectable{
+  	margin-top: 50px;
+	}
+
+  #feedback { font-size: 1.4em; }
+  #selectable .ui-selecting { background: #FECA40; }
+  #selectable .ui-selected { background: #F39814; color: white; }
+  #selectable { list-style-type: none; margin: 0; padding: 0; width: 450px; }
+  #selectable li { margin: 3px; padding: 1px; float: left; width: 100px; 
+  	height: 80px; font-size: 4em; text-align: center; }
+
+
+  	/*sortable*/
+  .sortable{
+  		margin-top: 350px;
+  	}
+  #sortable1, #sortable2 {
+    border: 1px solid #eee;
+    width: 142px;
+    min-height: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    float: left;
+    margin-right: 10px;
+  }
+  #sortable1 li, #sortable2 li {
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    font-size: 1.2em;
+    width: 120px;
+  }
+
+
+  /*accordian*/
+  .accordion{
+  	margin-top: 650px;
+  }
+
+
+  /*auto_complete*/
+  .auto_complete{
+  	margin-top: 50px;
+  }
+
+
+/*Checkboxradio*/
+.Checkboxradio{
+	margin-top: 50px;
+}
+
+
+
+/*Controlgroup*/
+.Controlgroup{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.ui-button-icon-only.demo-splitbutton-select {
+    width: 1em;
+  }
+
+
+
+/*Datepicker*/
+.datepicker{
+	margin-bottom: 50px;
+}
+
+
+/*Menu*/
+.ui-menu { width: 150px; }
+
+
+/*Selectmenu*/
+.selectmenu{
+	margin-bottom: 50px;
+}
+fieldset {
+      border: 0;
+    }
+    label {
+      display: block;
+      margin: 30px 0 0 0;
+    }
+    .overflow {
+      height: 200px;
+    }
+
+
+/*slider*/
+    .slider{
+    	margin-bottom: 50px;
+    }
+
+
+
+    /*tabs*/
+    .tab{
+    	margin-bottom: 50px;
+    }
+
+
+/*jquery plugin*/
+.jq_margin{
+  margin-bottom: 50px;
+}
+
+.box{
+  min-height: 100px;
+  color: green;
+}
+
+
+
+
+
+
+
+
+
+
